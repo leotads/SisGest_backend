@@ -1,0 +1,26 @@
+{
+  "name": "SisGest_backend",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon . --ignore __tests__"
+  },
+  "repository": "https://github.com/leotads/SisGest_backend.git",
+  "author": "Leonardo Freitas",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.0",
+    "sequelize": "^5.12.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^6.1.0",
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.0"
+  }
+}
